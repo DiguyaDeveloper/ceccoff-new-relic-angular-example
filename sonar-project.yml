@@ -1,0 +1,73 @@
+# Nome do projeto (substitua pelo nome do seu projeto)
+projectKey: ceccoff-new-relic-angular-example
+# Nome exibido do projeto
+projectName: ceccoff sonarqube example
+# Versão do projeto (opcional)
+projectVersion: 1.0
+
+# Caminho para o código-fonte do projeto (substitua pelo caminho correto)
+sources:
+  - src
+
+# Exclusões de arquivos ou diretórios (opcional)
+exclusions:
+  - node_modules/**/*.*
+  - dist/**/*.*
+
+# Linguagem do projeto (Angular é baseado em TypeScript)
+language: ts
+
+# Framework (Angular)
+# Pode ser necessário personalizar isso dependendo da versão do Angular que você está usando.
+# Consulte a documentação do SonarQube para obter detalhes sobre a configuração do Angular.
+framework: angular
+
+# Configurações adicionais (opcional)
+# Adicione outras configurações específicas do seu projeto aqui, como regras de qualidade personalizadas.
+
+# Configurações de análise
+# Defina as configurações específicas da análise do código-fonte
+analysis:
+  qualityProfile: 'My Quality Profile' # Substitua pelo nome do perfil de qualidade do SonarQube
+
+# Informações de conexão com o servidor do SonarQube
+# Certifique-se de que o servidor do SonarQube esteja configurado corretamente e acessível.
+sonarqube:
+  host: 'http://localhost:9000' # URL do servidor do SonarQube
+
+# Token de autenticação (opcional)
+token:
+  secure: 'sqp_9e05b05f7ABCD123456ABC190c09c18a47f4d46' # Substitua pelo seu token de autenticação seguro
+
+# Configurações de proxy (opcional)
+# proxy:
+#   host: "proxy.example.com"
+#   port: 8080
+
+# Configurações de autenticação (opcional)
+# authentication:
+#   basic:
+#     username: "my-username"
+#     password: "my-password"
+
+# Configurações de cache (opcional)
+# cache:
+#   size: 50
+
+# Configurações de notificação (opcional)
+# notifications:
+#   mode: "pull"
+#   type: "webhook"
+
+# Configurações de webhook (opcional)
+# webhook:
+#   url: "http://example.com/sonarqube-webhook"
+
+# Configurações de exclusão de duplicados (opcional)
+# duplications:
+#   enabled: true
+
+# Configurações de limpeza de diretórios (opcional)
+# clean:
+#   before: true
+#   after: true
