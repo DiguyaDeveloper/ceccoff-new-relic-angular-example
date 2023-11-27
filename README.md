@@ -19,7 +19,7 @@ Este repositório está aberto a contribuições! Se você tem ideias para melho
 
 Não deixe seu projeto Angular voar às cegas. Dê a ele a vantagem da observabilidade com o New Relic. Vamos otimizar juntos! 💡💻
 
-[![Clone o Repositório](https://img.shields.io/badge/Clone-Reposit%C3%B3rio-brightgreen)](link_do_seu_repositorio)
+[![Clone o Repositório](https://img.shields.io/badge/Clone-Reposit%C3%B3rio-brightgreen)](https://github.com/DiguyaDeveloper/ceccoff-new-relic-angular-example)
 
 ## Configuração do Ambiente de Desenvolvimento
 
