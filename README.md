@@ -1,4 +1,4 @@
-**Descrição do Repositório Angular com New Relic 🚀**
+# Angular com New Relic 🚀
 
 Explore o potencial máximo do seu projeto Angular com o New Relic! Este repositório exemplifica a integração eficiente do New Relic para monitoramento e observabilidade de aplicações frontend. Descubra como otimizar a performance, rastrear eventos críticos e obter insights valiosos para aprimorar a experiência do usuário.
 
