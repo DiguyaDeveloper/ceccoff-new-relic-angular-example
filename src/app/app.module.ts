@@ -5,6 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { BrowserAgent } from '@newrelic/browser-agent/loaders/browser-agent';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ContentComponent } from './components/content/content.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { LoggerModule, NgxLoggerLevel } from 'ngx-logger';
 
 const options = {
   init: {
@@ -31,8 +36,18 @@ const options = {
 };
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [AppComponent, FooterComponent],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NavbarComponent,
+    HeaderComponent,
+    ContentComponent,
+    LoggerModule.forRoot({
+      level: NgxLoggerLevel.DEBUG,
+      serverLogLevel: NgxLoggerLevel.ERROR,
+    }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
